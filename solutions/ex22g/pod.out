@@ -1,0 +1,501 @@
+ Earth Radiation Model (ERM):   1
+
+ YAML version:   1 (master branch)
+ Empirical model is off but you are asking for empirical parameters to be estimated. Turning them off
+ POD Tool mode: 1 :: Orbit Determination
+  
+ Initial Conditions mode: 1 :: A-priori orbit input file: products/COD0MGXFIN_20191990000_01D_05M_ORB.SP3
+  
+ Success: End of products/tables/leap.second found,           28 values read
+ Final entry in products/tables/leap.second is,         2017           1   37.000000000000000     
+ Satellites number:                    93 IC Epoch:         2019           7          18   0.0000000000000000     
+  
+STATUS :220223:1342:55.7 POD/:  A priori SRP model =       1
+STATUS :220223:1342:55.7 POD/:  SRP force model =       2
+  
+  PRN: G01, SVN:  63, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000       -12053996.852000000        21412163.230999999       -9849315.8059999999       -1032.9676300939173        707.32140284404159        2889.1665919814259
+ Orbit Determination
+ day of year        2019         199 G01  beta  -21.055801339172902
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G01        0.0031        0.0021        0.0030
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G01        0.0028        0.0016        0.0036
+ RMS-XYZ ICRF CMP G01        0.0031        0.0021        0.0030
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G01        0.0017        0.0034        0.0030
+  
+  
+  PRN: G02, SVN:  61, BLK TYP: GPS-IIR-B, BLKID:   6, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        20561552.770000000       -13147270.275999999       -9692254.6860000007       -649.18898038938642        1190.7695703040808       -2831.8342814706266
+ Orbit Determination
+ day of year        2019         199 G02  beta  -22.344868611303600
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G02        0.0055        0.0035        0.0035
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G02        0.0043        0.0029        0.0052
+ RMS-XYZ ICRF CMP G02        0.0055        0.0035        0.0035
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G02        0.0042        0.0050        0.0035
+  
+  
+  PRN: G03, SVN:  69, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000       -4447741.3190000001        14515475.773000000       -21838716.232999999       -2667.1026573404670       -714.52934391237795        77.028180658817291
+ Orbit Determination
+ day of year        2019         199 G03  beta   22.323743855587836
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G03        0.0030        0.0024        0.0036
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G03        0.0027        0.0022        0.0040
+ RMS-XYZ ICRF CMP G03        0.0030        0.0024        0.0036
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G03        0.0029        0.0026        0.0036
+  
+  
+  PRN: G04, SVN:  36, BLK TYP: GPS-IIA, BLKID:   3, TX PWR:  50, MASS:  930.000
+ IC:    58682.000000000000        0.0000000000000000       -15995776.029000001       -476581.41899999999        20988229.555999998       -945.55684935487807       -2556.1952481933986       -713.65756746754050
+ Orbit Determination
+ day of year        2019         199 G04  beta  -29.766311960889382
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G04        0.0020        0.0041        0.0043
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G04        0.0029        0.0022        0.0051
+ RMS-XYZ ICRF CMP G04        0.0020        0.0041        0.0043
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G04        0.0033        0.0031        0.0043
+  
+  
+  PRN: G05, SVN:  50, BLK TYP: GPS-IIR-M, BLKID:   7, TX PWR: 145, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        23035926.195000000       -3909048.6699999999        12696263.598999999        1528.2378789111972        608.59977280208841       -2539.2370615471154
+ Orbit Determination
+ day of year        2019         199 G05  beta   21.199240540298192
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G05        0.0036        0.0033        0.0046
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G05        0.0043        0.0024        0.0046
+ RMS-XYZ ICRF CMP G05        0.0036        0.0033        0.0046
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G05        0.0039        0.0030        0.0046
+  
+  
+  PRN: G06, SVN:  67, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000        17727154.694000002        1031866.1059999999       -19721193.353999998       -1688.6436297446489        1856.7366441907361       -1414.9137908518314
+ Orbit Determination
+ day of year        2019         199 G06  beta  -21.308316932054520
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G06        0.0036        0.0034        0.0041
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G06        0.0048        0.0025        0.0034
+ RMS-XYZ ICRF CMP G06        0.0036        0.0034        0.0041
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G06        0.0029        0.0039        0.0041
+  
+  
+  PRN: G07, SVN:  48, BLK TYP: GPS-IIR-M, BLKID:   7, TX PWR: 145, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        1624945.2220000001        17897792.765999999        19669715.080000002       -1857.8880496930797        1614.0364086627960       -1381.0713046118617
+ Orbit Determination
+ day of year        2019         199 G07  beta   49.142876134630889
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G07        0.0055        0.0026        0.0060
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G07        0.0057        0.0028        0.0057
+ RMS-XYZ ICRF CMP G07        0.0055        0.0026        0.0060
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G07        0.0037        0.0048        0.0060
+  
+  
+  PRN: G08, SVN:  72, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000       -7250085.0379999997        18436713.934000000        17618669.473000001       -774.25059916544706       -2104.8236586116254        1907.2907456047833
+ Orbit Determination
+ day of year        2019         199 G08  beta  -31.980433551299363
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G08        0.0028        0.0033        0.0042
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G08        0.0035        0.0025        0.0043
+ RMS-XYZ ICRF CMP G08        0.0028        0.0033        0.0042
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G08        0.0027        0.0034        0.0042
+  
+  
+  PRN: G09, SVN:  68, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000        8038411.6450000005        25287690.113000002        1003464.3740000001       -261.64718279335648        213.37508176639676       -3153.2150257428875
+ Orbit Determination
+ day of year        2019         199 G09  beta   68.870777437259264
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G09        0.0024        0.0037        0.0036
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G09        0.0025        0.0022        0.0046
+ RMS-XYZ ICRF CMP G09        0.0024        0.0037        0.0036
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G09        0.0041        0.0018        0.0036
+  
+  
+  PRN: G10, SVN:  73, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000       -22820964.015000001       -11479735.607000001        7711022.9280000003        993.56729029119015        13.028398422524333        2965.0065776165575
+ Orbit Determination
+ day of year        2019         199 G10  beta   22.173116755646067
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G10        0.0031        0.0019        0.0028
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G10        0.0025        0.0020        0.0033
+ RMS-XYZ ICRF CMP G10        0.0031        0.0019        0.0028
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G10        0.0024        0.0027        0.0028
+  
+  
+  PRN: G11, SVN:  46, BLK TYP: GPS-IIR-A, BLKID:   5, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -8268455.5519999992        25395668.601000000       -620088.52700000000       -399.66077997814864       -119.42341508716345        3040.2932158821495
+ Orbit Determination
+ day of year        2019         199 G11  beta  -28.785558112513314
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G11        0.0052        0.0051        0.0046
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G11        0.0057        0.0034        0.0056
+ RMS-XYZ ICRF CMP G11        0.0052        0.0051        0.0046
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G11        0.0032        0.0066        0.0046
+  
+  
+  PRN: G12, SVN:  58, BLK TYP: GPS-IIR-M, BLKID:   7, TX PWR: 145, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        7978752.8499999996       -12828179.153999999       -22045044.381000001        2588.7462126081809        907.36426224559546        428.75267902389169
+ Orbit Determination
+ day of year        2019         199 G12  beta  -1.5444545577093951
+ eclipsing satellite G12, reduced stepsize of          100  chosen
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G12        0.0048        0.0075        0.0038
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G12        0.0065        0.0043        0.0058
+ RMS-XYZ ICRF CMP G12        0.0048        0.0075        0.0038
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G12        0.0057        0.0069        0.0038
+  
+  
+  PRN: G13, SVN:  43, BLK TYP: GPS-IIR-A, BLKID:   5, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        13327161.082000000       -9027873.7819999997        21007376.462000001        455.93832177296281        2653.8903211392462        852.32092021405697
+ Orbit Determination
+ day of year        2019         199 G13  beta   74.006573147901790
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G13        0.0025        0.0025        0.0035
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G13        0.0033        0.0023        0.0028
+ RMS-XYZ ICRF CMP G13        0.0025        0.0025        0.0035
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G13        0.0022        0.0027        0.0035
+  
+  
+  PRN: G14, SVN:  41, BLK TYP: GPS-IIR-A, BLKID:   5, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -15590322.560000001       -7463460.2980000004       -19890997.300000001       -377.28545060753822       -2568.0517102470621        1220.8568459562957
+ Orbit Determination
+ day of year        2019         199 G14  beta   72.359516517745476
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G14        0.0033        0.0033        0.0041
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G14        0.0029        0.0027        0.0047
+ RMS-XYZ ICRF CMP G14        0.0033        0.0033        0.0041
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G14        0.0021        0.0041        0.0041
+  
+  
+  PRN: G15, SVN:  55, BLK TYP: GPS-IIR-M, BLKID:   7, TX PWR: 145, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        5917781.6830000002       -19473529.836999997        16591468.555000000        1025.6607646066695        1946.5502743609250        1927.5617192778736
+ Orbit Determination
+ day of year        2019         199 G15  beta   64.993088005560480
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G15        0.0039        0.0029        0.0039
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G15        0.0048        0.0026        0.0030
+ RMS-XYZ ICRF CMP G15        0.0039        0.0029        0.0039
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G15        0.0031        0.0037        0.0039
+  
+  
+  PRN: G16, SVN:  56, BLK TYP: GPS-IIR-A, BLKID:   5, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -23326657.967999998        770281.25800000003        12885117.109000001       -1501.0824712403119       -693.84853360615671       -2595.1879583317786
+ Orbit Determination
+ day of year        2019         199 G16  beta  -2.3523099103054501
+ eclipsing satellite G16, reduced stepsize of          100  chosen
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G16        0.0079        0.0086        0.0068
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G16        0.0083        0.0060        0.0088
+ RMS-XYZ ICRF CMP G16        0.0079        0.0086        0.0068
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G16        0.0069        0.0094        0.0068
+  
+  
+  PRN: G17, SVN:  53, BLK TYP: GPS-IIR-M, BLKID:   7, TX PWR: 145, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        14088933.510000002        15779029.557000000       -15710220.552999999        285.53909878432751        2047.6128364689648        2245.9968638699502
+ Orbit Determination
+ day of year        2019         199 G17  beta  -33.709274027303572
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G17        0.0035        0.0037        0.0036
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G17        0.0041        0.0016        0.0044
+ RMS-XYZ ICRF CMP G17        0.0035        0.0037        0.0036
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G17        0.0042        0.0030        0.0036
+  
+  
+  PRN: G18, SVN:  34, BLK TYP: GPS-IIA, BLKID:   3, TX PWR:  50, MASS:  930.000
+ IC:    58682.000000000000        0.0000000000000000       -16900666.711000003        20379858.009000000       -1441647.2659999998       -313.41897172108293       -114.23081425204873        3163.4998493832536
+ Orbit Determination
+ day of year        2019         199 G18  beta  -21.911697605197386
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G18        0.0031        0.0034        0.0035
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G18        0.0034        0.0025        0.0039
+ RMS-XYZ ICRF CMP G18        0.0031        0.0034        0.0035
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G18        0.0028        0.0037        0.0035
+  
+  
+  PRN: G19, SVN:  59, BLK TYP: GPS-IIR-B, BLKID:   6, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        15158969.460000001        9019529.1500000004       -20145118.107999999        325.14569925144315        2467.1416589971632        1375.0928800553083
+ Orbit Determination
+ day of year        2019         199 G19  beta  -34.126969962624592
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G19        0.0049        0.0044        0.0048
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G19        0.0054        0.0034        0.0051
+ RMS-XYZ ICRF CMP G19        0.0049        0.0044        0.0048
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G19        0.0048        0.0046        0.0048
+  
+  
+  PRN: G20, SVN:  51, BLK TYP: GPS-IIR-A, BLKID:   5, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -16498023.715000000       -13874825.987000000        15517239.015999999        2006.2757566850632        20.833118228241801        2121.4470770116895
+ Orbit Determination
+ day of year        2019         199 G20  beta   17.109593534926397
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G20        0.0033        0.0019        0.0033
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G20        0.0031        0.0025        0.0031
+ RMS-XYZ ICRF CMP G20        0.0033        0.0019        0.0033
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G20        0.0023        0.0030        0.0033
+  
+  
+  PRN: G21, SVN:  45, BLK TYP: GPS-IIR-A, BLKID:   5, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -7074538.1140000001       -15198173.902000001        21429138.166000001        1723.0770080173388       -1868.4379721395671       -769.10470896214247
+ Orbit Determination
+ day of year        2019         199 G21  beta  -21.947313104819106
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G21        0.0034        0.0020        0.0029
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G21        0.0036        0.0023        0.0024
+ RMS-XYZ ICRF CMP G21        0.0034        0.0020        0.0029
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G21        0.0027        0.0030        0.0029
+  
+  
+  PRN: G22, SVN:  47, BLK TYP: GPS-IIR-B, BLKID:   6, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -12456713.775000000        12576001.342000000       -19551485.249000002       -2475.9916685856879       -615.65190985612571        1176.4349331669509
+ Orbit Determination
+ day of year        2019         199 G22  beta   19.320153963254509
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G22        0.0034        0.0029        0.0034
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G22        0.0031        0.0022        0.0042
+ RMS-XYZ ICRF CMP G22        0.0034        0.0029        0.0034
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G22        0.0026        0.0037        0.0034
+  
+  
+  PRN: G23, SVN:  60, BLK TYP: GPS-IIR-B, BLKID:   6, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -1284265.1579999998        23793041.666000001       -10958834.994999999       -729.26298819738440       -1308.0729569941759       -2711.2674481179565
+ Orbit Determination
+ day of year        2019         199 G23  beta   68.340469712050648
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G23        0.0025        0.0041        0.0046
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G23        0.0027        0.0027        0.0054
+ RMS-XYZ ICRF CMP G23        0.0025        0.0041        0.0046
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G23        0.0044        0.0019        0.0046
+  
+  
+  PRN: G24, SVN:  65, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000        13159561.266999999       -21958663.110000003       -6544636.3950000005        817.21831890381873       -372.07214821130037        2994.9864828800783
+ Orbit Determination
+ day of year        2019         199 G24  beta   52.031959768701547
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G24        0.0027        0.0023        0.0033
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G24        0.0028        0.0022        0.0033
+ RMS-XYZ ICRF CMP G24        0.0027        0.0023        0.0033
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G24        0.0027        0.0024        0.0033
+  
+  
+  PRN: G25, SVN:  62, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000       -7086605.3739999998       -16164863.381999999       -20136020.305999998        2437.9323499426246        559.51437503658235       -1296.8697812147439
+ Orbit Determination
+ day of year        2019         199 G25  beta   1.5423031319308869
+ eclipsing satellite G25, reduced stepsize of          100  chosen
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G25        0.0041        0.0034        0.0043
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G25        0.0037        0.0019        0.0054
+ RMS-XYZ ICRF CMP G25        0.0041        0.0034        0.0043
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G25        0.0034        0.0041        0.0043
+  
+  
+  PRN: G26, SVN:  71, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000       -26189832.729999997       -3909897.9330000002        3052773.3059999999       -311.13947093114257       -375.31156502291560       -3111.0573711842299
+ Orbit Determination
+ day of year        2019         199 G26  beta   3.2487527883900453
+ eclipsing satellite G26, reduced stepsize of          100  chosen
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G26        0.0063        0.0040        0.0052
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G26        0.0034        0.0035        0.0076
+ RMS-XYZ ICRF CMP G26        0.0063        0.0040        0.0052
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G26        0.0055        0.0050        0.0051
+  
+  
+  PRN: G27, SVN:  66, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000       -13736097.067000000        5628566.2069999995        21896446.531000003       -772.83356937766075       -2695.7639690032229        236.21848750486970
+ Orbit Determination
+ day of year        2019         199 G27  beta  -32.610702139693139
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G27        0.0021        0.0039        0.0044
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G27        0.0030        0.0026        0.0048
+ RMS-XYZ ICRF CMP G27        0.0021        0.0039        0.0044
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G27        0.0031        0.0031        0.0044
+  
+  
+  PRN: G28, SVN:  44, BLK TYP: GPS-IIR-A, BLKID:   5, TX PWR:  60, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000        21327963.135000002        13685566.900000000        8379868.5929999994       -989.10013170912862       -151.08182917535305        2990.1829714979976
+ Orbit Determination
+ day of year        2019         199 G28  beta  -2.4932173030925444
+ eclipsing satellite G28, reduced stepsize of          100  chosen
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G28        0.0063        0.0119        0.0079
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G28        0.0104        0.0071        0.0093
+ RMS-XYZ ICRF CMP G28        0.0063        0.0119        0.0079
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G28        0.0093        0.0098        0.0079
+  
+  
+  PRN: G29, SVN:  57, BLK TYP: GPS-IIR-M, BLKID:   7, TX PWR: 145, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -3810212.7629999998       -26183880.228000000       -2257635.4630000000        255.45618397137150        234.97087706252933       -3213.2987231649458
+ Orbit Determination
+ day of year        2019         199 G29  beta  -33.936808586712161
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G29        0.0061        0.0056        0.0030
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G29        0.0060        0.0029        0.0058
+ RMS-XYZ ICRF CMP G29        0.0061        0.0056        0.0030
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G29        0.0056        0.0061        0.0030
+  
+  
+  PRN: G30, SVN:  64, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000        11578457.150000000        10611178.568000000        21455147.756999999       -1992.1555654089898        1858.5446485187858        136.76297833025455
+ Orbit Determination
+ day of year        2019         199 G30  beta   47.765131878006791
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G30        0.0049        0.0028        0.0054
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G30        0.0049        0.0024        0.0056
+ RMS-XYZ ICRF CMP G30        0.0049        0.0028        0.0054
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G30        0.0038        0.0042        0.0054
+  
+  
+  PRN: G31, SVN:  52, BLK TYP: GPS-IIR-M, BLKID:   7, TX PWR: 145, MASS: 1080.000
+ IC:    58682.000000000000        0.0000000000000000       -19168033.862000000        289172.65899999999       -18570535.938000001        1609.0456487648189       -1706.4198640470277       -1644.1333709545434
+ Orbit Determination
+ day of year        2019         199 G31  beta   48.518349419807187
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G31        0.0053        0.0024        0.0054
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G31        0.0040        0.0031        0.0061
+ RMS-XYZ ICRF CMP G31        0.0053        0.0024        0.0054
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G31        0.0046        0.0036        0.0054
+  
+  
+  PRN: G32, SVN:  70, BLK TYP: GPS-IIF, BLKID:   8, TX PWR: 240, MASS: 1633.000
+ IC:    58682.000000000000        0.0000000000000000       -15631025.566000000       -14654150.320000000       -15709260.770000001       -350.53021867200732       -1982.0326956976205        2176.4519243706018
+ Orbit Determination
+ day of year        2019         199 G32  beta   69.273874440590959
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT G32        0.0030        0.0035        0.0043
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP G32        0.0034        0.0025        0.0048
+ RMS-XYZ ICRF CMP G32        0.0030        0.0035        0.0043
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP G32        0.0024        0.0040        0.0043
+  
+  
+ CPU Time (sec)   400.27209699999997     

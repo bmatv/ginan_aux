@@ -1,0 +1,11 @@
+Output file: /ginan/examples/ex22j/orbrms_gag20624_J.png
+GNSS:  J PRNs:  [401. 402. 403.]
+PRN: RMS      R/T/N/3D: 401 :  0.810  0.868  0.755  1.407
+PRN: RMS      R/T/N/3D: 402 :  1.194  1.038  0.685  1.724
+PRN: RMS      R/T/N/3D: 403 :  0.709  0.459  0.458  0.961
+ 
+Combined statistics
+PRN: Mean     R/T/N/3D:  ALL: -0.206  0.028  0.114  0.237
+PRN: Std Dev  R/T/N/3D:  ALL:  0.905  0.825  0.635  1.379
+PRN: RMS      R/T/N/3D:  ALL:  0.928  0.825  0.645  1.399
+PRN: Mean STD R/T/N/3D:  ALL:  0.869  0.788  0.610  1.323

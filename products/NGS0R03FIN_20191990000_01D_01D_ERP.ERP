@@ -1,0 +1,4 @@
+version 2
+    mjd    xpole   ypole  ut1-utc      lod  xsig  ysig  utsig  ldsig  nr  nf  nt   xdot   ydot xdotsig ydotsig
+          10**-6  10**-6   10**-7 10**-7/d                                       10**-6 10**-6  10**-6  10**-6
+58682.50  182109  404886 -1666816    -7671     3     2      2      4 545   0  31   1121   -654       8       9

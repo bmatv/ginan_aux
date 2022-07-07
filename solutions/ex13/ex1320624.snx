@@ -1,0 +1,78 @@
+%=SNX 2.02 GAA 22:053:49438 IGN 19:199:00000 19:200:00000 P     6   S T 
+*-------------------------------------------------------------------------------
++FILE/REFERENCE
+ DESCRIPTION        Geoscience Australia
+ OUTPUT             PPP Solution
+ CONTACT            npi@ga.gov.au
+ SOFTWARE           Ginan PEA Version 0.1
+ HARDWARE           Linux 5.11.0-1028-aws 
+ INPUT              RINEX
+-FILE/REFERENCE
+*-------------------------------------------------------------------------------
++INPUT/HISTORY
+*_VERSION_ CRE __CREATION__ OWN _DATA_START_ __DATA_END__ T PARAM S ____TYPE____
+ +SNX 2.02 IGN 19:212:50994 IGN 19:194:75600 19:202:43200 C  1664 2 S E
+-INPUT/HISTORY
+*-------------------------------------------------------------------------------
++INPUT/FILES
+*OWN __CREATION__ ___________FILENAME__________ ___________DESCRIPTION__________
+*GAA 19:200:00000 AGGO00ARG_R_20191990000_01D_30S_MO.rnx RINEX v3.x
+*GAA 19:200:00000 ALIC00AUS_R_20191990000_01D_30S_MO.rnx RINEX v3.x
+*GAA 19:200:00000 products/COD0MGXFIN_20191990000_01D_05M_ORB.SP3 SP3
+ GAA 19:200:00000 products/igs19P2062.snx       SINEX
+-INPUT/FILES
+*-------------------------------------------------------------------------------
++SITE/ID
+*CODE PT __DOMES__ T _STATION DESCRIPTION__ _LONGITUDE_ _LATITUDE__ HEIGHT_
+ AGGO  A 41596M001 P La Plata - Argentinean 301 51 36.5 -34 52 25.3    39.7
+ ALIC  A 50137M001 P Alice springs - Telegr 133 53  7.9 -23 40 12.4   603.2
+-SITE/ID
+*-------------------------------------------------------------------------------
++SITE/RECEIVER
+*CODE PT SOLN T _DATA START_ _DATA END___ _RECEIVER TYPE______ _S/N_ _FIRMWARE__
+ AGGO  A ---- P 18:340:74400 00:000:00000 SEPT POLARX4TR       30020 2.9.6-patch
+ ALIC  A ---- P 19:077:00000 00:000:00000 LEICA GR25           18304 4.30.063/6.
+-SITE/RECEIVER
+*-------------------------------------------------------------------------------
++SITE/ANTENNA
+*CODE PT SOLN T _DATA START_ __DATA END__ __ANTENNA TYPE______ _S/N_
+ AGGO  A ---- P 16:316:37800 00:000:00000 LEIAR25.R4      LEIT 72672
+ ALIC  A ---- P 11:201:00000 00:000:00000 LEIAR25.R3      NONE 09370
+-SITE/ANTENNA
+*-------------------------------------------------------------------------------
++SITE/ECCENTRICITY
+*                                             _UP_____ _NORTH__ _EAST___
+*CODE PT SOLN T _DATA START_ __DATA END__ TYP __ARP-BENCHMARK (M)_______
+ AGGO  A ---- P 16:316:37800 00:000:00000 UNE   0.1550   0.0000   0.0000
+ ALIC  A ---- P 11:201:00000 00:000:00000 UNE   0.0015   0.0000   0.0000
+-SITE/ECCENTRICITY
+*-------------------------------------------------------------------------------
++SOLUTION/ESTIMATE
+*INDEX _TYPE_ CODE PT SOLN _REF_EPOCH__ UNIT S ___ESTIMATED_VALUE___ __STD_DEV__
+     1 STAX   AGGO  A    1 19:200:00000 m    9  2.76512124163630e+06 1.68071e-01
+     2 STAY   AGGO  A    1 19:200:00000 m    9 -4.44924909726362e+06 3.50432e-01
+     3 STAZ   AGGO  A    1 19:200:00000 m    9 -3.62640426155649e+06 2.74532e-01
+     4 STAX   ALIC  A    1 19:200:00000 m    9 -4.05205294886186e+06 2.12139e-01
+     5 STAY   ALIC  A    1 19:200:00000 m    9  4.21283598704991e+06 1.63547e-01
+     6 STAZ   ALIC  A    1 19:200:00000 m    9 -2.54510449014979e+06 1.61096e-01
+-SOLUTION/ESTIMATE
+*-------------------------------------------------------------------------------
++SOLUTION/APRIORI
+     1 STAX   AGGO  A    1 19:199:00000 m    3  2.76512087391472e+06 0.00000e+00
+     2 STAY   AGGO  A    1 19:199:00000 m    3 -4.44924839894459e+06 0.00000e+00
+     3 STAZ   AGGO  A    1 19:199:00000 m    3 -3.62640369034768e+06 0.00000e+00
+     4 STAX   ALIC  A    1 19:199:00000 m    3 -4.05205271694605e+06 0.00000e+00
+     5 STAY   ALIC  A    1 19:199:00000 m    3  4.21283598092691e+06 0.00000e+00
+     6 STAZ   ALIC  A    1 19:199:00000 m    3 -2.54510460797403e+06 0.00000e+00
+-SOLUTION/APRIORI
++SOLUTION/MATRIX_ESTIMATE L COVA
+*PARA1 PARA2 _______PARA2+0_______ _______PARA2+1_______ _______PARA2+2_______
+     1     1  2.82479487359524e-02
+     2     1 -2.72892988927025e-02  1.22802775353193e-01
+     3     1 -2.23095668469848e-02  7.11192536649283e-02  7.53675587475300e-02
+     4     4  4.50030416250229e-02
+     5     4 -1.13405487715760e-02  2.67476476728916e-02
+     6     4  1.13753243777953e-02 -1.31720352942965e-02  2.59518474340439e-02
+-SOLUTION/MATRIX_ESTIMATE L COVA
+*-------------------------------------------------------------------------------
+%ENDSNX

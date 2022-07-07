@@ -1,0 +1,9 @@
+Output file: /ginan/examples/ex26/orbrms_gag21330_ilrsa.orb.lageos1.201128.v70G.png
+GNSS:  G PRNs:  [51.]
+PRN: RMS      R/T/N/3D:  51 :  2.426 31.998 25.274 40.848
+ 
+Combined statistics
+PRN: Mean     R/T/N/3D:  ALL:  0.014 -0.542 -0.008  0.543
+PRN: Std Dev  R/T/N/3D:  ALL:  2.426 31.993 25.274 40.844
+PRN: RMS      R/T/N/3D:  ALL:  2.426 31.998 25.274 40.848
+PRN: Mean STD R/T/N/3D:  ALL:  2.426 31.993 25.274 40.844

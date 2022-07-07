@@ -1,0 +1,62 @@
+%=SNX 2.02 GAA 22:053:49448 IGS 22:004:24056 22:004:27655 P     3   S T 
+*-------------------------------------------------------------------------------
++FILE/REFERENCE
+ DESCRIPTION        Geoscience Australia
+ OUTPUT             PPP Solution
+ CONTACT            npi@ga.gov.au
+ SOFTWARE           Ginan PEA Version 0.1
+ HARDWARE           Linux 5.11.0-1028-aws 
+ INPUT              RINEX
+-FILE/REFERENCE
+*-------------------------------------------------------------------------------
++INPUT/HISTORY
+*_VERSION_ CRE __CREATION__ OWN _DATA_START_ __DATA_END__ T PARAM S ____TYPE____
+ +SNX 2.01 IGS 21:202:00000 IGS 00:000:00000 00:000:00000 P     0 0
+-INPUT/HISTORY
+*-------------------------------------------------------------------------------
++INPUT/FILES
+*OWN __CREATION__ ___________FILENAME__________ ___________DESCRIPTION__________
+*GAA 22:004:27655 products/meta_gather_20210721.snx SINEX
+-INPUT/FILES
+*-------------------------------------------------------------------------------
++SITE/ID
+*CODE PT __DOMES__ T _STATION DESCRIPTION__ _LONGITUDE_ _LATITUDE__ HEIGHT_
+ ALIC  A 50137M001 P ALICE SPRINGS, AUSTRAL 133 53  7.8 -23 40 12.4   603.4
+-SITE/ID
+*-------------------------------------------------------------------------------
++SITE/RECEIVER
+*CODE PT SOLN T _DATA START_ _DATA END___ _RECEIVER TYPE______ _S/N_ _FIRMWARE__
+ ALIC  A ---- P 21:056:85380 00:000:00000 SEPT POLARX5         30617 5.4.0
+-SITE/RECEIVER
+*-------------------------------------------------------------------------------
++SITE/ANTENNA
+*CODE PT SOLN T _DATA START_ __DATA END__ __ANTENNA TYPE______ _S/N_
+ ALIC  A ---- P 11:201:00000 00:000:00000 LEIAR25.R3      NONE 09370
+-SITE/ANTENNA
+*-------------------------------------------------------------------------------
++SITE/ECCENTRICITY
+*                                             _UP_____ _NORTH__ _EAST___
+*CODE PT SOLN T _DATA START_ __DATA END__ TYP __ARP-BENCHMARK (M)_______
+ ALIC  A ---- P 11:201:00000 00:000:00000 UNE   0.0015   0.0000   0.0000
+-SITE/ECCENTRICITY
+*-------------------------------------------------------------------------------
++SOLUTION/ESTIMATE
+*INDEX _TYPE_ CODE PT SOLN _REF_EPOCH__ UNIT S ___ESTIMATED_VALUE___ __STD_DEV__
+     1 STAX   ALIC  A    1 22:004:27655 m    9 -4.05205275975144e+06 4.54884e-03
+     2 STAY   ALIC  A    1 22:004:27655 m    9  4.21283584055721e+06 4.84291e-03
+     3 STAZ   ALIC  A    1 22:004:27655 m    9 -2.54510443241958e+06 3.31058e-03
+-SOLUTION/ESTIMATE
+*-------------------------------------------------------------------------------
++SOLUTION/APRIORI
+     1 STAX   ALIC  A    1 22:004:24056 m    3 -4.05205279733827e+06 0.00000e+00
+     2 STAY   ALIC  A    1 22:004:24056 m    3  4.21283596995340e+06 0.00000e+00
+     3 STAZ   ALIC  A    1 22:004:24056 m    3 -2.54510449891305e+06 0.00000e+00
+-SOLUTION/APRIORI
++SOLUTION/MATRIX_ESTIMATE L COVA
+*PARA1 PARA2 _______PARA2+0_______ _______PARA2+1_______ _______PARA2+2_______
+     1     1  2.06919656838981e-05
+     2     1 -3.95251516559864e-06  2.34537480431328e-05
+     3     1  7.49964673780372e-06 -1.10776375068440e-05  1.09599167894285e-05
+-SOLUTION/MATRIX_ESTIMATE L COVA
+*-------------------------------------------------------------------------------
+%ENDSNX

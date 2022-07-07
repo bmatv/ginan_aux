@@ -1,0 +1,61 @@
+ Earth Radiation Model (ERM):   1
+
+ YAML version:   1 (master branch)
+ Empirical model is off but you are asking for empirical parameters to be estimated. Turning them off
+ POD Tool mode: 1 :: Orbit Determination
+  
+ Initial Conditions mode: 1 :: A-priori orbit input file: products/COD0MGXFIN_20191990000_01D_05M_ORB.SP3
+  
+ Success: End of products/tables/leap.second found,           28 values read
+ Final entry in products/tables/leap.second is,         2017           1   37.000000000000000     
+ Satellites number:                    93 IC Epoch:         2019           7          18   0.0000000000000000     
+  
+STATUS :220223:1342:49.8 POD/:  A priori SRP model =       1
+STATUS :220223:1342:49.8 POD/:  SRP force model =       2
+  
+  PRN: J01, SVN:   1, BLK TYP: QZS-1, BLKID: 401, TX PWR: 250, MASS: 2237.000
+ IC:    58682.000000000000        0.0000000000000000       -25383517.658000000        16786238.335999999       -24545965.445000000       -1038.4359702914953       -475.09103770926595        638.28563753515482
+ Orbit Determination
+ day of year        2019         199 J01  beta   36.156316210856659
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT J01        0.0106        0.0077        0.0051
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP J01        0.0081        0.0087        0.0075
+ RMS-XYZ ICRF CMP J01        0.0106        0.0077        0.0051
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP J01        0.0090        0.0095        0.0051
+  
+  
+  PRN: J02, SVN:   2, BLK TYP: QZS-2I, BLKID: 402, TX PWR: 500, MASS: 2294.000
+ IC:    58682.000000000000        0.0000000000000000       -30976517.511000000        26335692.677999999        15772579.595999999        55.535520423203707        820.89028690755367       -1811.2431489862502
+ Orbit Determination
+ day of year        2019         199 J02  beta   27.252739262251339
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT J02        0.0107        0.0056        0.0123
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP J02        0.0119        0.0104        0.0069
+ RMS-XYZ ICRF CMP J02        0.0107        0.0056        0.0123
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP J02        0.0082        0.0088        0.0123
+  
+  
+  PRN: J03, SVN:   4, BLK TYP: QZS-2I, BLKID: 402, TX PWR: 550, MASS: 2335.000
+ IC:    58682.000000000000        0.0000000000000000       -25512291.944000002        26743572.219999999        25444660.070999999        412.94735897332430       -367.19508615508676        992.78877043351531
+ Orbit Determination
+ day of year        2019         199 J03  beta  -18.936952361700744
+ ECOM2 SRP MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT J03        0.0073        0.0050        0.0038
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP J03        0.0071        0.0046        0.0046
+ RMS-XYZ ICRF CMP J03        0.0073        0.0050        0.0038
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP J03        0.0068        0.0057        0.0038
+  
+  
+ CPU Time (sec)   46.480603000000002     

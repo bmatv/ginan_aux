@@ -1,0 +1,23 @@
+version 2
+# INSTITUTION  Graz University of Technology (TUG/TU Graz)
+# CONTACT      sebastian.strasser@tugraz.at, mayer-guerr@tugraz.at
+# OUTPUT       TUG GNSS 1-day solution for IGS repro3
+# INPUT        Raw GNSS observations from the IGS repro3 station network
+# SOFTWARE     GROOPS (https://github.com/groops-devs/groops)
+# HARDWARE     Intel Xeon & AMD Epyc, Debian Linux, x86_64
+# ------------------------------------------------------------------------------
+# This data is licensed under CC0 1.0 (Public Domain).
+# https://creativecommons.org/publicdomain/zero/1.0/
+# If you use this data, please cite:
+# Strasser, S. and Mayer-Guerr, T. (2021). IGS repro3 products by Graz
+# University of Technology (TUG): Earth rotation parameters.
+# DOI: 10.3217/dataset-0712-3278-8016
+# For background information about the processing refer to:
+# Strasser, S., Mayer-Guerr, T. and Zehentner, N. (2019). Processing of GNSS
+# constellations and ground station networks using the raw observation approach.
+# J Geod 93, 1045-1057. DOI: 10.1007/s00190-018-1223-2
+-------------------------------------------------------------------------------------------------------------------
+   MJD       Xpole    Ypole  UT1-UTC     LOD   Xsig   Ysig  UTsig LODsig   Nr   Nf   Nt    Xrt    Yrt Xrtsig Yrtsig
+              e-6"     e-6"     e-7s  e-7s/d   e-6"   e-6"   e-7s e-7s/d                e-6"/d e-6"/d e-6"/d e-6"/d
+-------------------------------------------------------------------------------------------------------------------
+ 58682.50   182130   404877 -1666542   -7704      1      1      0      1  828    0   78    895   -697      2      2

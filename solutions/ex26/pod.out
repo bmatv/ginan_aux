@@ -1,0 +1,35 @@
+ Earth Radiation Model (ERM):   1
+
+ YAML version:   1 (master branch)
+ POD Tool mode: 1 :: Orbit Determination
+  
+ Initial Conditions mode: 1 :: A-priori orbit input file: products/ilrsa.orb.lageos1.201128.v70.sp3
+  
+ Success: End of products/tables/leap.second found,           28 values read
+ Final entry in products/tables/leap.second is,         2017           1   37.000000000000000     
+ Satellites number:                     1 IC Epoch:         2020          11          22   0.0000000000000000     
+  
+STATUS :220223:1343:41.2 POD/:  A priori SRP model =       0
+STATUS :220223:1343:41.2 POD/:  Estimating EMP force model and ECOM SRP parameters estimated together:  T      1
+  
+WARNING:220223:1343:43.5 POD/m_read_satsnx: Could not find satellite metadata: L51 yr = 2020, doy =  327, hour =  0, minute =  0
+WARNING:220223:1343:43.5 POD/m_read_satsnx: Could not find satellite metadata: L51 yr = 2020, doy =  327, hour =  0, minute =  0
+  PRN: L51, SVN:   0, BLK TYP: , BLKID:   0, TX PWR:   0, MASS:    0.000
+ IC:    59175.000000000000        0.0000000000000000        2346618.4630000000       -6552725.3250000002       -10161347.891999999       -4950.9239499056712        2216.6864860318601       -2554.0398494433612
+ Orbit Determination
+ day of year        2020         327 L51  beta  -22.992907448452677
+ ECOM1 SRP MODEL IS ACTIVATED
+ EMPIRICAL MODEL IS ACTIVATED
+Orbit residuals: ICRF
+ RMS-XYZ ICRF FIT L51        0.2248        0.2293        0.2525
+External Orbit comparison
+Orbit comparison: ICRF
+ RMS-RTN ICRF CMP L51        0.0243        0.3200        0.2527
+ RMS-XYZ ICRF CMP L51        0.2248        0.2293        0.2525
+Orbit comparison: ITRF
+ RMS-XYZ ITRF CMP L51        0.3142        0.0663        0.2525
+  
+  
+WARNING:220223:1344:30.4 POD/m_read_satsnx: Could not find satellite metadata: L51 yr = 2020, doy =  327, hour =  0, minute =  0
+WARNING:220223:1344:30.7 POD/m_read_satsnx: Could not find satellite metadata: L51 yr = 2020, doy =  327, hour =  0, minute =  0
+ CPU Time (sec)   53.566821000000004     
